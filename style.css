@@ -1,0 +1,261 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+/* Reset */
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px 0;
+}
+
+.divider {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 3px solid #bbbbbb;
+    padding-bottom: 20px;
+}
+
+/* Text Styling */
+h1 {
+	font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #444444;
+}
+p {
+	font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #444444;
+}
+
+a {
+    color: #6f1c5d;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+
+/* Intro Section */
+
+#intro {
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#intro h1 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #FFFFFF;
+}
+
+#intro h2 {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+}
+
+#intro .container {
+    padding: 70px 0;
+}
+
+/* About Me */
+
+#about-me {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+#about-me .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills */
+
+#skills {
+    background: #efefef;
+}
+
+#skills > div {
+    width: 675px;
+    margin: 0 auto;
+}
+
+#skills h2 {
+    text-align: center;
+}
+.skill {
+    list-style: none;
+    width: 310px;
+    margin: 15px auto 0;
+    padding: 30px 0;
+    position: relative;
+    line-height: 20px;
+    display: inline-table;
+}
+
+.skill h2 {
+    text-align: center;
+}
+
+.left-column {
+    margin-right: 50px;
+}
+
+li {
+    display: list-item;
+}
+.skill li {
+    margin-bottom: 50px;
+    background: #FFFFFF;
+}
+
+.bar {
+    height: 20px;
+    position: absolute;
+}
+
+.skill li h4 {
+    position: relative;
+    top: -25px!important;
+}
+
+.c {
+    width: 65%;
+    background-color: #eb7fa9;
+}
+
+.html-css {
+    width: 70%;
+    background-color: #6f1c5d;
+}
+
+.javascript {
+    width: 20%;
+    background-color: #be68a2;
+}
+
+.java {
+    width: 30%;
+    background-color: #deb3d0;
+}
+
+.photoshop {
+    width: 30%;
+    background-color: #deb3d0;
+}
+
+.illustrator {
+    width: 40%;
+    background-color: #be68a2;
+}
+
+.web-design {
+    width: 50%;
+    background-color: #eb7fa9;
+}
+
+.jquery {
+    width: 20%;
+    background-color: #6f1c5d;
+}
+
+#button {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    padding: 11px 15px;
+    background-color: #eb7fa9;
+    color: #FFFFFF;
+}
+
+/* Projects */
+
+#projects {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+#projects .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#projects a {
+    color: #444444;
+}
+
+#projects a:hover {
+    color: #be68a2;
+}
+
+/* Contact */
+
+#contact {
+    background: #6f1c5d;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #ffffff;
+}
+
+#contact a {
+    color: #be68a2;
+}
+
+#contact a:hover {
+    color: #eb7fa9;
+}
+
+/* Font Awesome Styling */
+i.fa {
+    padding: 10px 8px; 
+	color: #FFFFFF;
+}
+i.fa:hover {
+	color: #be68a2;
+}
+
+/* Mobile */
+@media only screen and (max-width: 900px) {
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1em;
+	}
+}
