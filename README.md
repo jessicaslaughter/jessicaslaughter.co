@@ -1,2 +1,2 @@
-# Personal Website
-My personal website project.
+# Personal Website (Old)
+A personal website project that's now a personal blog.
